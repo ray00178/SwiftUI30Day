@@ -13,6 +13,7 @@
 		710399712AE2CB660043CCF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710399702AE2CB660043CCF3 /* Preview Assets.xcassets */; };
 		710399782AE2CBB20043CCF3 /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399772AE2CBB20043CCF3 /* CornerRadiusView.swift */; };
 		7103997A2AE56F120043CCF3 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399792AE56F120043CCF3 /* ButtonView.swift */; };
+		7103997C2AE6B75E0043CCF3 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103997B2AE6B75E0043CCF3 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		710399702AE2CB660043CCF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		710399772AE2CBB20043CCF3 /* CornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
 		710399792AE56F120043CCF3 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7103997B2AE6B75E0043CCF3 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 				710399692AE2CB650043CCF3 /* SwiftUI30DaysApp.swift */,
 				7103996B2AE2CB650043CCF3 /* ContentView.swift */,
 				710399772AE2CBB20043CCF3 /* CornerRadiusView.swift */,
+				710399792AE56F120043CCF3 /* ButtonView.swift */,
 				7103996D2AE2CB660043CCF3 /* Assets.xcassets */,
 				7103996F2AE2CB660043CCF3 /* Preview Content */,
-				710399792AE56F120043CCF3 /* ButtonView.swift */,
+				7103997B2AE6B75E0043CCF3 /* ShapesView.swift */,
 			);
 			path = SwiftUI30Days;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				7103996C2AE2CB650043CCF3 /* ContentView.swift in Sources */,
 				7103996A2AE2CB650043CCF3 /* SwiftUI30DaysApp.swift in Sources */,
 				7103997A2AE56F120043CCF3 /* ButtonView.swift in Sources */,
+				7103997C2AE6B75E0043CCF3 /* ShapesView.swift in Sources */,
 				710399782AE2CBB20043CCF3 /* CornerRadiusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
