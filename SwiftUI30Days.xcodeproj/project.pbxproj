@@ -14,6 +14,8 @@
 		710399782AE2CBB20043CCF3 /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399772AE2CBB20043CCF3 /* CornerRadiusView.swift */; };
 		7103997A2AE56F120043CCF3 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399792AE56F120043CCF3 /* ButtonView.swift */; };
 		7103997C2AE6B75E0043CCF3 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103997B2AE6B75E0043CCF3 /* ShapesView.swift */; };
+		7103997E2AE882940043CCF3 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103997D2AE882940043CCF3 /* BindingView.swift */; };
+		710399802AE9C0B10043CCF3 /* ViewModifierDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103997F2AE9C0B10043CCF3 /* ViewModifierDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		710399772AE2CBB20043CCF3 /* CornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
 		710399792AE56F120043CCF3 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		7103997B2AE6B75E0043CCF3 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		7103997D2AE882940043CCF3 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		7103997F2AE9C0B10043CCF3 /* ViewModifierDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,11 @@
 				7103996B2AE2CB650043CCF3 /* ContentView.swift */,
 				710399772AE2CBB20043CCF3 /* CornerRadiusView.swift */,
 				710399792AE56F120043CCF3 /* ButtonView.swift */,
+				7103997B2AE6B75E0043CCF3 /* ShapesView.swift */,
+				7103997D2AE882940043CCF3 /* BindingView.swift */,
+				7103997F2AE9C0B10043CCF3 /* ViewModifierDemo.swift */,
 				7103996D2AE2CB660043CCF3 /* Assets.xcassets */,
 				7103996F2AE2CB660043CCF3 /* Preview Content */,
-				7103997B2AE6B75E0043CCF3 /* ShapesView.swift */,
 			);
 			path = SwiftUI30Days;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			files = (
 				7103996C2AE2CB650043CCF3 /* ContentView.swift in Sources */,
 				7103996A2AE2CB650043CCF3 /* SwiftUI30DaysApp.swift in Sources */,
+				7103997E2AE882940043CCF3 /* BindingView.swift in Sources */,
 				7103997A2AE56F120043CCF3 /* ButtonView.swift in Sources */,
+				710399802AE9C0B10043CCF3 /* ViewModifierDemo.swift in Sources */,
 				7103997C2AE6B75E0043CCF3 /* ShapesView.swift in Sources */,
 				710399782AE2CBB20043CCF3 /* CornerRadiusView.swift in Sources */,
 			);
