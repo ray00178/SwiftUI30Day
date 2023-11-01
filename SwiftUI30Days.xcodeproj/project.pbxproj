@@ -17,6 +17,7 @@
 		7103997E2AE882940043CCF3 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103997D2AE882940043CCF3 /* BindingView.swift */; };
 		710399802AE9C0B10043CCF3 /* ViewModifierDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103997F2AE9C0B10043CCF3 /* ViewModifierDemo.swift */; };
 		710399822AF05C140043CCF3 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399812AF05C140043CCF3 /* LazyVGridView.swift */; };
+		710399842AF300100043CCF3 /* SafeAreaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399832AF300100043CCF3 /* SafeAreaDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		7103997D2AE882940043CCF3 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		7103997F2AE9C0B10043CCF3 /* ViewModifierDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierDemo.swift; sourceTree = "<group>"; };
 		710399812AF05C140043CCF3 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
+		710399832AF300100043CCF3 /* SafeAreaDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +72,10 @@
 				7103997B2AE6B75E0043CCF3 /* ShapesView.swift */,
 				7103997D2AE882940043CCF3 /* BindingView.swift */,
 				7103997F2AE9C0B10043CCF3 /* ViewModifierDemo.swift */,
+				710399812AF05C140043CCF3 /* LazyVGridView.swift */,
 				7103996D2AE2CB660043CCF3 /* Assets.xcassets */,
 				7103996F2AE2CB660043CCF3 /* Preview Content */,
-				710399812AF05C140043CCF3 /* LazyVGridView.swift */,
+				710399832AF300100043CCF3 /* SafeAreaDemo.swift */,
 			);
 			path = SwiftUI30Days;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				710399822AF05C140043CCF3 /* LazyVGridView.swift in Sources */,
 				7103997C2AE6B75E0043CCF3 /* ShapesView.swift in Sources */,
 				710399782AE2CBB20043CCF3 /* CornerRadiusView.swift in Sources */,
+				710399842AF300100043CCF3 /* SafeAreaDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
