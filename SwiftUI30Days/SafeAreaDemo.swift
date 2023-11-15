@@ -52,6 +52,18 @@ struct SafeAreaDemo: View {
   }
 }
 
+struct IgnoreSafeAreaDemo: View {
+  var body: some View {
+    ZStack {
+      Color.blue.opacity(0.2)
+      Text("Ignore Safe Area")
+        .font(.system(size: 20, weight: .bold, design: .monospaced))
+    }
+    .ignoresSafeArea(.all)
+  }
+}
+
 #Preview {
-  SafeAreaDemo()
+  //SafeAreaDemo()
+  IgnoreSafeAreaDemo()
 }
