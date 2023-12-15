@@ -20,6 +20,7 @@
 		710399842AF300100043CCF3 /* SafeAreaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399832AF300100043CCF3 /* SafeAreaDemo.swift */; };
 		710399862B07C25B0043CCF3 /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399852B07C25B0043CCF3 /* ListDemo.swift */; };
 		710EC5432B2BB3370051C95C /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EC5422B2BB3370051C95C /* PickerDemo.swift */; };
+		710EC5452B2C97670051C95C /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EC5442B2C97670051C95C /* TransitionDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		710399832AF300100043CCF3 /* SafeAreaDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaDemo.swift; sourceTree = "<group>"; };
 		710399852B07C25B0043CCF3 /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
 		710EC5422B2BB3370051C95C /* PickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemo.swift; sourceTree = "<group>"; };
+		710EC5442B2C97670051C95C /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				710399832AF300100043CCF3 /* SafeAreaDemo.swift */,
 				710399852B07C25B0043CCF3 /* ListDemo.swift */,
 				710EC5422B2BB3370051C95C /* PickerDemo.swift */,
+				710EC5442B2C97670051C95C /* TransitionDemo.swift */,
 				7103996D2AE2CB660043CCF3 /* Assets.xcassets */,
 				7103996F2AE2CB660043CCF3 /* Preview Content */,
 			);
@@ -171,6 +174,7 @@
 				710399862B07C25B0043CCF3 /* ListDemo.swift in Sources */,
 				710399802AE9C0B10043CCF3 /* ViewModifierDemo.swift in Sources */,
 				710399822AF05C140043CCF3 /* LazyVGridView.swift in Sources */,
+				710EC5452B2C97670051C95C /* TransitionDemo.swift in Sources */,
 				7103997C2AE6B75E0043CCF3 /* ShapesView.swift in Sources */,
 				710EC5432B2BB3370051C95C /* PickerDemo.swift in Sources */,
 				710399782AE2CBB20043CCF3 /* CornerRadiusView.swift in Sources */,
