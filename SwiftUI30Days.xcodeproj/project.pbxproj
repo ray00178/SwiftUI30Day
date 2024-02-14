@@ -22,6 +22,7 @@
 		710EC5432B2BB3370051C95C /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EC5422B2BB3370051C95C /* PickerDemo.swift */; };
 		710EC5452B2C97670051C95C /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EC5442B2C97670051C95C /* TransitionDemo.swift */; };
 		717A58402B600570001795FE /* RefreshableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A583F2B600570001795FE /* RefreshableDemo.swift */; };
+		717A58482B7D0A59001795FE /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A58472B7D0A59001795FE /* TabViewDemo.swift */; };
 		71B94AD62B3479D100F70AC9 /* EnvironmentObjectDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B94AD52B3479D100F70AC9 /* EnvironmentObjectDemo.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		710EC5422B2BB3370051C95C /* PickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemo.swift; sourceTree = "<group>"; };
 		710EC5442B2C97670051C95C /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
 		717A583F2B600570001795FE /* RefreshableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableDemo.swift; sourceTree = "<group>"; };
+		717A58472B7D0A59001795FE /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
 		71B94AD52B3479D100F70AC9 /* EnvironmentObjectDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,9 +90,10 @@
 				710EC5422B2BB3370051C95C /* PickerDemo.swift */,
 				710EC5442B2C97670051C95C /* TransitionDemo.swift */,
 				71B94AD52B3479D100F70AC9 /* EnvironmentObjectDemo.swift */,
+				717A583F2B600570001795FE /* RefreshableDemo.swift */,
+				717A58472B7D0A59001795FE /* TabViewDemo.swift */,
 				7103996D2AE2CB660043CCF3 /* Assets.xcassets */,
 				7103996F2AE2CB660043CCF3 /* Preview Content */,
-				717A583F2B600570001795FE /* RefreshableDemo.swift */,
 			);
 			path = SwiftUI30Days;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				7103996A2AE2CB650043CCF3 /* SwiftUI30DaysApp.swift in Sources */,
 				7103997E2AE882940043CCF3 /* BindingView.swift in Sources */,
 				7103997A2AE56F120043CCF3 /* ButtonView.swift in Sources */,
+				717A58482B7D0A59001795FE /* TabViewDemo.swift in Sources */,
 				710399862B07C25B0043CCF3 /* ListDemo.swift in Sources */,
 				710399802AE9C0B10043CCF3 /* ViewModifierDemo.swift in Sources */,
 				710399822AF05C140043CCF3 /* LazyVGridView.swift in Sources */,

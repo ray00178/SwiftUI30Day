@@ -73,7 +73,7 @@ struct RefreshableDemo: View {
   private func fetchData() async throws {
     // delay 2s
     try await Task.sleep(nanoseconds: 1_000_000_000 * 2)
-    //throw APIError.mockFailure
+    //Daythrow APIError.mockFailure
     let count = items.count
     items = items + [count + 1, count + 2, count + 3]
   }
