@@ -23,6 +23,7 @@
 		710EC5452B2C97670051C95C /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EC5442B2C97670051C95C /* TransitionDemo.swift */; };
 		717A58402B600570001795FE /* RefreshableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A583F2B600570001795FE /* RefreshableDemo.swift */; };
 		717A58482B7D0A59001795FE /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A58472B7D0A59001795FE /* TabViewDemo.swift */; };
+		717A584A2B7E59B9001795FE /* NavigationStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A58492B7E59B9001795FE /* NavigationStackDemo.swift */; };
 		71B94AD62B3479D100F70AC9 /* EnvironmentObjectDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B94AD52B3479D100F70AC9 /* EnvironmentObjectDemo.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		710EC5442B2C97670051C95C /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
 		717A583F2B600570001795FE /* RefreshableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableDemo.swift; sourceTree = "<group>"; };
 		717A58472B7D0A59001795FE /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
+		717A58492B7E59B9001795FE /* NavigationStackDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackDemo.swift; sourceTree = "<group>"; };
 		71B94AD52B3479D100F70AC9 /* EnvironmentObjectDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				71B94AD52B3479D100F70AC9 /* EnvironmentObjectDemo.swift */,
 				717A583F2B600570001795FE /* RefreshableDemo.swift */,
 				717A58472B7D0A59001795FE /* TabViewDemo.swift */,
+				717A58492B7E59B9001795FE /* NavigationStackDemo.swift */,
 				7103996D2AE2CB660043CCF3 /* Assets.xcassets */,
 				7103996F2AE2CB660043CCF3 /* Preview Content */,
 			);
@@ -191,6 +194,7 @@
 				710399782AE2CBB20043CCF3 /* CornerRadiusView.swift in Sources */,
 				710399842AF300100043CCF3 /* SafeAreaDemo.swift in Sources */,
 				71B94AD62B3479D100F70AC9 /* EnvironmentObjectDemo.swift in Sources */,
+				717A584A2B7E59B9001795FE /* NavigationStackDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
