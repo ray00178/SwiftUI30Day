@@ -11,10 +11,22 @@ struct NavigationStackDemo: View {
   var body: some View {
     NavigationStack {
       ScrollView {
-        Rectangle()
-          .clipShape(RoundedRectangle(cornerRadius: 8, style: .circular))
-          .foregroundStyle(.purple)
-          .frame(width: .infinity, height: 1000)
+        VStack {
+          Rectangle()
+            .clipShape(RoundedRectangle(cornerRadius: 8, style: .circular))
+            .foregroundStyle(.purple)
+            .frame(width: .infinity, height: 100)
+          
+          Divider()
+          
+          NavigationLink {
+            SecondView()
+          } label: {
+            Image(systemName: "arrow.right.circle.fill")
+              .font(.largeTitle)
+          }
+        }
+        
       }
       .navigationTitle("NavigationStack")
       .navigationBarTitleDisplayMode(.automatic)
@@ -34,6 +46,30 @@ struct NavigationStackDemo: View {
         }
       }
     }
+  }
+}
+
+// MARK: - Widget
+
+struct SecondView: View {
+  
+  @Environment(\.dismiss) var dismiss
+  
+  var body: some View {
+    Text("Second View")
+      .navigationTitle("Second")
+      .navigationBarTitleDisplayMode(.inline)
+      .navigationBarBackButtonHidden()
+      .toolbar {
+        ToolbarItem(placement: .topBarLeading) {
+          Button(action: {
+            dismiss()
+          }, label: {
+            Image(systemName: "arrow.left")
+              .foregroundStyle(.black)
+          })
+        }
+      }
   }
 }
 
