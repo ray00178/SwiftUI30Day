@@ -7,13 +7,26 @@
 
 import SwiftUI
 
+// MARK: - ListDemo
+
 struct ListDemo: View {
-  
-  let dataset: [ListModel] = (0...100).map { ListModel(day: $0) }
-  
+  let dataset: [ListModel] = (0 ... 100).map { ListModel(day: $0) }
+
   var body: some View {
-    List(dataset, id: \.id) { model in
-      Text("Day = \(model.day)")
+    List {
+      ForEach(dataset, id: \.id) { model in
+        Text("Day = \(model.day)")
+      }
+
+      ProgressView()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .foregroundColor(.black)
+        .foregroundColor(.red)
+        .onAppear {
+          Task(priority: .background) {
+            try await Task.sleep(nanoseconds: 100_000_000)
+          }
+        }
     }
     .listStyle(.plain)
   }
@@ -23,14 +36,15 @@ struct ListDemo: View {
   ListDemo()
 }
 
+// MARK: - ListModel
+
 struct ListModel: Identifiable {
-  
   let id: String
-  
+
   let day: Int
-  
+
   init(day: Int) {
-    self.id = UUID().uuidString
+    id = UUID().uuidString
     self.day = day
   }
 }
