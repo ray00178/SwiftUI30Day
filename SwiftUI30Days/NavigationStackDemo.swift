@@ -7,12 +7,15 @@
 
 import SwiftUI
 
+// MARK: - NavigationStackDemo
+
 struct NavigationStackDemo: View {
+  private let animals: [Animal] = ["Lion", "Elephant", "Bird", "Rabbit"].map { Animal(name: $0) }
   
-  private let animals: [String] = ["Lion", "Elephant", "Bird", "Rabbit"]
-  
+  @State private var path: [Animal] = []
+
   var body: some View {
-    TabView {
+    TabView(selection: .constant(1)) {
       NavigationStack {
         ScrollView {
           VStack {
@@ -20,9 +23,9 @@ struct NavigationStackDemo: View {
               .clipShape(RoundedRectangle(cornerRadius: 8, style: .circular))
               .foregroundStyle(.purple)
               .frame(width: .infinity, height: 100)
-            
+
             Divider()
-            
+
             NavigationLink {
               SecondView()
                 .toolbar(.hidden, for: .tabBar)
@@ -53,15 +56,30 @@ struct NavigationStackDemo: View {
       .tabItem {
         Label("Home", systemImage: "house")
       }
-      
-      NavigationStack {
+      .tag(0)
+
+      NavigationStack(path: $path) {
         ScrollView {
           LazyVStack {
-            ForEach(animals, id: \.self) { (value) in
-              NavigationLink(value, value: value).padding()
+            Button {
+              if let animal1 = animals.randomElement(),
+                 let animal2 = animals.randomElement() {
+                path.append(contentsOf: [animal1, animal2])
+              }
+            } label: {
+              Text("隨機產生")
+                .font(.system(size: 20, weight: .medium))
+                .foregroundStyle(.white)
+                .padding()
             }
-            .navigationDestination(for: String.self) { (animal) in
-              Text(animal)
+            .background(.black)
+            .clipShape(RoundedRectangle(cornerRadius: .infinity))
+
+            ForEach(animals) { value in
+              NavigationLink(value.name, value: value).padding()
+            }
+            .navigationDestination(for: Animal.self) { animal in
+              Text(animal.name)
                 .font(.system(size: 20, weight: .semibold, design: .monospaced))
                 .foregroundStyle(.pink)
                 .toolbar(.hidden, for: .tabBar)
@@ -73,17 +91,17 @@ struct NavigationStackDemo: View {
       .tabItem {
         Label("Animal", systemImage: "circle.hexagonpath.fill")
       }
+      .tag(1)
     }
     .tint(.black)
   }
 }
 
-// MARK: - Widget
+// MARK: - SecondView
 
 struct SecondView: View {
-  
   @Environment(\.dismiss) var dismiss
-  
+
   var body: some View {
     Text("Second View")
       .navigationTitle("Second")
@@ -104,4 +122,12 @@ struct SecondView: View {
 
 #Preview {
   NavigationStackDemo()
+}
+
+// MARK: - Model
+
+struct Animal: Identifiable, Hashable {
+  
+  let id: String = UUID().uuidString
+  let name: String
 }
