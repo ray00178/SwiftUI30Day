@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI30DaysApp: App {
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      NavigationStackDemo()
     }
   }
 }

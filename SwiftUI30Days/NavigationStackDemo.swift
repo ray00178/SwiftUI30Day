@@ -10,10 +10,10 @@ import SwiftUI
 // MARK: - NavigationStackDemo
 
 struct NavigationStackDemo: View {
-  private let animals: [Animal] = ["Lion", "Elephant", "Bird", "Rabbit"].map { Animal(name: $0) }
+  private var animals: [Animal] = ["Lion", "Elephant", "Bird", "Rabbit"].map { Animal(name: $0) }
   
   @State private var path: [Animal] = []
-
+  
   var body: some View {
     TabView(selection: .constant(1)) {
       NavigationStack {
@@ -22,7 +22,7 @@ struct NavigationStackDemo: View {
             Rectangle()
               .clipShape(RoundedRectangle(cornerRadius: 8, style: .circular))
               .foregroundStyle(.purple)
-              .frame(width: .infinity, height: 100)
+              .frame(height: 100)
 
             Divider()
 
@@ -87,6 +87,12 @@ struct NavigationStackDemo: View {
           }
         }
         .navigationTitle("Animal")
+      }
+      // Custom URL or Universal link
+      .onOpenURL { url in
+        guard let value = url.host() else { return }
+        
+        path.append(Animal(name: value))
       }
       .tabItem {
         Label("Animal", systemImage: "circle.hexagonpath.fill")
