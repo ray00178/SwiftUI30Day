@@ -19,6 +19,7 @@
 		710399822AF05C140043CCF3 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399812AF05C140043CCF3 /* LazyVGridView.swift */; };
 		710399842AF300100043CCF3 /* SafeAreaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399832AF300100043CCF3 /* SafeAreaDemo.swift */; };
 		710399862B07C25B0043CCF3 /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710399852B07C25B0043CCF3 /* ListDemo.swift */; };
+		7105B71B2B9CB26300ACB72B /* MenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105B71A2B9CB26300ACB72B /* MenuDemo.swift */; };
 		710EC5432B2BB3370051C95C /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EC5422B2BB3370051C95C /* PickerDemo.swift */; };
 		710EC5452B2C97670051C95C /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EC5442B2C97670051C95C /* TransitionDemo.swift */; };
 		717A58402B600570001795FE /* RefreshableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A583F2B600570001795FE /* RefreshableDemo.swift */; };
@@ -44,6 +45,7 @@
 		710399832AF300100043CCF3 /* SafeAreaDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaDemo.swift; sourceTree = "<group>"; };
 		710399852B07C25B0043CCF3 /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
 		7105B7182B92365A00ACB72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7105B71A2B9CB26300ACB72B /* MenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemo.swift; sourceTree = "<group>"; };
 		710EC5422B2BB3370051C95C /* PickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemo.swift; sourceTree = "<group>"; };
 		710EC5442B2C97670051C95C /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
 		717A583F2B600570001795FE /* RefreshableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableDemo.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				717A584D2B7FAD14001795FE /* AnimationDemo.swift */,
 				7103996D2AE2CB660043CCF3 /* Assets.xcassets */,
 				7103996F2AE2CB660043CCF3 /* Preview Content */,
+				7105B71A2B9CB26300ACB72B /* MenuDemo.swift */,
 			);
 			path = SwiftUI30Days;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				717A58482B7D0A59001795FE /* TabViewDemo.swift in Sources */,
 				710399862B07C25B0043CCF3 /* ListDemo.swift in Sources */,
 				710399802AE9C0B10043CCF3 /* ViewModifierDemo.swift in Sources */,
+				7105B71B2B9CB26300ACB72B /* MenuDemo.swift in Sources */,
 				710399822AF05C140043CCF3 /* LazyVGridView.swift in Sources */,
 				717A584E2B7FAD14001795FE /* AnimationDemo.swift in Sources */,
 				710EC5452B2C97670051C95C /* TransitionDemo.swift in Sources */,
